@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe Card</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: #166084;
+            background-image: -webkit-linear-gradient(160deg, #166084 93%, #80D0C7 100%);
+            background-image: -moz-linear-gradient(160deg, #166084 93%, #80D0C7 100%);
+            background-image: -o-linear-gradient(160deg, #166084 93%, #80D0C7 100%);
+            background-image: linear-gradient(160deg, #166084 93%, #80D0C7 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cardBox{
+            width: 800px;
+            height: 450px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #660a5e;
+            
+            
+        }
+        .leftBox{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+        }
+        .rightBox img{
+            height: 61vh;
+            width: 27vw;
+
+        } 
+        #heading{
+            color: white;
+            /* border: 2px solid black; */
+            padding: 50px 15px 20px 23px ;
+        }
+        .leftNumber{
+            display: flex;
+            gap: 60px;
+            font-size: 20px;
+
+        }
+        .headingLFTBOX{
+             font-size: 30px;
+        }
+        .para{
+            font-size: 15px;
+            margin-top: 10%;
+            margin-bottom: 15%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+       
+        <div class="cardBox">
+              <div class="leftBox">
+                    <div id="heading">
+                        <h2 class="headingLFTBOX">Get insights that help <br>
+                           your business grow
+                        </h2> 
+                        <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                             Corrupti eveniet minus totam at voluptas, doloribus odit eos ipsum ea labore?
+                        </p>
+                        <div class="leftNumber">
+                            <div class="kkk">
+                             <h3>10K+</h3>
+                             <p>lorem</p>
+                             </div>
+                             <div class="rrr">
+                                <h3>214</h3>
+                                <p>paid user</p>
+                             </div>
+                             <div class="sss">
+                                <h3>12M+</h3>
+                                <p>viwes</p>
+                             </div>
+
+                        </div>
+                    </div>
+              </div>
+
+              <div class="rightBox">
+                    <img
+                    src="/Html_CSS_Projects_/CardWebsite/icon.jpg"
+                    />
+                    </div>
+             </div>
+              </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
